@@ -40,6 +40,11 @@ Firebase Realtime Database
 Biometric Authentication
 Riverpod
 
+🖼️ Screenshots
+Attached image for reference:
+![Image](https://github.com/user-attachments/assets/8b71df75-3553-484d-934c-0e5d57744387)
+
+
 🧩 Responsiveness
 ✅ Fully responsive on Mobile and Tablet devices.
 
