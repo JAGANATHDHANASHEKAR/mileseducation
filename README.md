@@ -1,4 +1,4 @@
-# milestone
+# mileseducation
 
 A new Flutter project.
 
