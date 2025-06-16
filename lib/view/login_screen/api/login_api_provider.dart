@@ -110,7 +110,7 @@ class LoginPageProvider extends ChangeNotifier {
     } on FirebaseAuthException catch (e) {
       loginStatus = Status.error;
       notifyListeners();
-      print(e.message.toString());
+      
       showToast(context, CommonString.loginFailed);
     }
   }

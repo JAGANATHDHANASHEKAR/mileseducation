@@ -23,21 +23,17 @@ Future<void> requestBiometricAuthentication() async {
       );
 
       if (didAuthenticate) {
-        print('User authenticated successfully');
         SharedPrefs.setFingerPrint(true);
         biometricfingerprint = true;
       } else {
-        print('Authentication failed');
         biometricfingerprint = false;
         SharedPrefs.setFingerPrint(false);
       }
     } else {
-      print('Biometrics not available on this device');
       biometricfingerprint = false;
       SharedPrefs.setFingerPrint(false);
     }
   } catch (e) {
-    print('Error: $e');
     biometricfingerprint = false;
     SharedPrefs.setFingerPrint(false);
   }

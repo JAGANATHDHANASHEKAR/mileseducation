@@ -1,44 +1,48 @@
-Miles Education – Flutter App
-A modern Flutter application demonstrating Firebase Authentication and Realtime Database integration with clean navigation and security features.
+📱 Miles Education – Flutter App
+A modern Flutter application demonstrating Firebase Authentication and Realtime Database integration with clean navigation, security features, and scalable architecture.
 
 🚀 Features
 🔐 User Authentication
-Register: Users can register using their Email and Password.
+Register: Sign up using Email and Password.
 
-Login: Users can securely log in using their credentials.
+Login: Secure login with credentials.
 
-Biometric Authentication: After login, users are prompted to authenticate using Fingerprint, Face Recognition, or Password (based on device capability).
+Biometric Authentication: Authenticate using Fingerprint, Face Recognition, or Password (based on device capability).
 
 🏠 Dashboard
-Once authenticated, the user is taken to the Dashboard, which includes:
+After successful login, users are taken to the Dashboard, which includes:
+
 Home Page
 Settings Page
 
-📄 Home Page  Page
-Add, Edit, and Delete Notes records.
-
-Data is stored in Firebase Realtime Database.
-
-Each user has their own separate database, linked to their Firebase Authentication UID.
+📄 Home Page
+Add, Edit, and Delete personal notes.
+Notes are stored in Firebase Realtime Database.
+Each user has a separate database, tied to their Firebase Authentication UID.
 
 ⚙️ Settings Page
-Displays Logged-in Email ID.
-Change Password functionality.
+Displays the Logged-in Email ID.
+Option to Change Password.
 Links to:
 About Us
 Privacy Policy
 Terms and Conditions
-Logout button to securely sign out and terminate the session.
+Logout option to securely sign out of the app.
 
-🔧 Tech Stack
+🧠 Architecture & State Management
+Architecture: MVC (Model–View–Controller)
+State Management: Riverpod
+
+🛠 Tech Stack
 Flutter
 Firebase Authentication
 Firebase Realtime Database
 Biometric Authentication
+Riverpod
 
+🧩 Responsiveness
+✅ Fully responsive on Mobile and Tablet devices.
 
 📬 Feedback
-For any feedback or suggestions, feel free to reach out or raise an issue!
-
-Attached Images for Reference 
-
+For any suggestions, questions, or improvements, feel free to reach out or open an issue.
+Contributions are welcome!

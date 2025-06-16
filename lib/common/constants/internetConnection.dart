@@ -10,10 +10,10 @@ class Connection {
         return true;
       }
     } on SocketException catch (_) {
-      print("Internet not Connected !!!!");
+    
       return false;
     }
-    print('last statement of connection');
+ 
     return true;
   }
 }

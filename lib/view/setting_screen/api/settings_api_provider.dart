@@ -83,7 +83,7 @@ class SettingPageProvider extends ChangeNotifier {
       navigatePop(context);
     } on FirebaseAuthException catch (e) {
       closeProgress(context);
-      print(e.code);
+
       if (e.code == 'invalid-credential') {
         showToast(context, CommonString.incorrectPassword);
       } else {
