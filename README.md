@@ -1,16 +1,44 @@
-# mileseducation
+Miles Education – Flutter App
+A modern Flutter application demonstrating Firebase Authentication and Realtime Database integration with clean navigation and security features.
 
-A new Flutter project.
+🚀 Features
+🔐 User Authentication
+Register: Users can register using their Email and Password.
 
-## Getting Started
+Login: Users can securely log in using their credentials.
 
-This project is a starting point for a Flutter application.
+Biometric Authentication: After login, users are prompted to authenticate using Fingerprint, Face Recognition, or Password (based on device capability).
 
-A few resources to get you started if this is your first Flutter project:
+🏠 Dashboard
+Once authenticated, the user is taken to the Dashboard, which includes:
+Home Page
+Settings Page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📄 Home Page  Page
+Add, Edit, and Delete Notes records.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Data is stored in Firebase Realtime Database.
+
+Each user has their own separate database, linked to their Firebase Authentication UID.
+
+⚙️ Settings Page
+Displays Logged-in Email ID.
+Change Password functionality.
+Links to:
+About Us
+Privacy Policy
+Terms and Conditions
+Logout button to securely sign out and terminate the session.
+
+🔧 Tech Stack
+Flutter
+Firebase Authentication
+Firebase Realtime Database
+Biometric Authentication
+
+
+📬 Feedback
+For any feedback or suggestions, feel free to reach out or raise an issue!
+
+Attached Images for Reference 
+
